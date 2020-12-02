@@ -1,0 +1,15 @@
+1.Установка python:
+    Скачать и установить https://www.python.org/
+2.Установка зависимостей:
+    Вводим в коммандной строке:
+        pip3 install -r {путь к файлу requirements.txt}
+3.Настройка программы:
+    В файле config.py заменяем параметры на свои:
+        SERVICE = 'Whatsapp' - Сервис
+        COUNTRY = 'Serbia' - Страна
+        DELAY = 120 - Задержка между обновлениями в секундаъ
+        BOT_TOKEN = '999867977:AAEvuKv6O3mV_D33sGwWkuP2d_GIFEhKlHM' - Токен бота(https://zen.yandex.ru/media/id/5d90d6a198930900afd02c56/botfather-otec-vseh-botov-telegram-5dfbb38afe289100b25022c3?utm_source=serp)
+4.Запуск скрипта:
+    1.В коммандной строке переходит в директорию со скриптиами
+    2.Вводим:
+        python3 scaner.py
